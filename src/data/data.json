@@ -1,6 +1,6 @@
 [
   {
-    "imagem": "../src/images/img_1.jpg",
+    "imagem": "src/images/img_1.jpg",
     "tag": "Educacao",
     "data": "04.04.2024",
     "titulo": "Qual o papel do Auxiliar de Enfermagem?",
@@ -8,7 +8,7 @@
     "link": "#"
   },
   {
-    "imagem": "../src/images/img_2.jpg",
+    "imagem": "src/images/img_2.jpg",
     "tag": "Ética Profissional",
     "data": "04.04.2024",
     "titulo": "Qual a importância de lavar bem as mãos?",
@@ -16,7 +16,7 @@
     "link": "#"
   },
   {
-    "imagem": "../src/images/img_3.jpg",
+    "imagem": "src/images/img_3.jpg",
     "tag": "Saúde Mental",
     "data": "04.04.2024",
     "titulo": "Saúde mental dos profissionais",
@@ -24,7 +24,7 @@
     "link": "#"
   },
   {
-    "imagem": "../src/images/img_4.jpg",
+    "imagem": "src/images/img_4.jpg",
     "tag": "Rotina de trabalho",
     "data": "07.04.2024",
     "titulo": "Atribuições do auxiliar de enfermagem",
@@ -32,7 +32,7 @@
     "link": "#"
   },
   {
-    "imagem": "../src/images/img_5.jpg",
+    "imagem": "src/images/img_5.jpg",
     "tag": "Questionário",
     "data": "08.04.2024",
     "titulo": "Teste de perfil profissional",
