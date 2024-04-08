@@ -1,0 +1,201 @@
+/* typograph */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --tittle-font: "Oswald", sans-serif;
+  --body-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--gray-100);
+}
+
+/* Pallet Colors */
+:root {
+  --yellow-100: #FEF9C3;
+  --yellow-900: #CEA525;
+  --teal-900: #134E4A;
+  --neutral: #D4D4D440;
+  --gray-100: #EBEBEB;
+  --gray-500: #535353;
+  --gray-600: #52525B;
+}
+
+/* nav_container*/
+html.light .ph-sun-dim,
+html:not(.light) .ph-moon-stars {
+  display: none;
+}
+
+.hiden {
+  display: none;
+}
+
+nav, footer {
+  background-color: var(--teal-900);
+  height: 7rem;
+}
+
+.nav_container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  & button {
+    border: none;
+    background: none;
+  }
+  
+  & i {
+    cursor: pointer;
+    font-size: 3rem;
+    color: var(--yellow-100);
+  }
+}
+
+/* header */
+.logo_container {
+  padding-block: 4rem;
+
+  & h1 {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    font-family: var(--tittle-font);
+    font-size: 6.4rem;
+    color: var(--teal-900);
+  }
+
+  & span {
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--gray-500);
+  }
+}
+
+/* hero section */
+.hero_container {
+  padding: 1.6rem 2.5rem;
+  height: 24rem;
+  background-blend-mode: color;
+  background: rgba(0, 0, 0, .55) url(../images/hero_image.jpg) center center / cover;
+
+  & .hero_content {
+    height: 100%;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .2rem;
+    border: 1px solid var(--neutral);
+    background: rgba(0, 0, 0, 0.15);
+
+    & span {
+      padding: .4rem .8rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      border-radius: .4rem;
+      background-color: var(--gray-100);
+    }
+
+    & h2 {
+      color: var(--gray-100);
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    & p {
+      color: var(--gray-100);
+      font-size: 1.4rem;
+    }
+  }
+}
+
+/* card material blog */
+.material_blog_container {
+  padding: 3rem 2.5rem;
+}
+
+.material_blog_name {
+  margin-bottom: 3rem;
+
+  & h2 {
+  font-size: 2rem;
+  color: var(--yellow-900);
+  }
+
+  & p {
+    color: var(--gray-600);
+    font-size: 1.4rem;
+  }
+}
+
+.card_material_blog {
+  & p {
+    color: var(--gray-600);
+  }
+
+  & img {
+    height: 24rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .2rem;
+  }
+}
+
+.material_blog_tittle {
+  margin: auto;
+  width: 34rem;
+  position: relative;
+  margin-top: -3rem;
+  padding: 1.8rem 2rem;
+  border-radius: .2rem .2rem 0 0;
+  background-color: var(--gray-100);
+
+  .material_blog_tag {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+    & p {
+      color: var(--yellow-900);
+      font-weight: 500;
+    }
+  }
+  
+    & h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+/* footer */
+footer {
+  display: grid;
+  place-content: center;
+  color: var(--yellow-100);
+}
+
+/* utility */
+.divisor {
+  width: 100%;
+  height: .1rem;
+  margin-block: 4rem;
+  background-color: rgba(0, 0, 0, .20);
+}
+
+.line {
+  width: 1rem;
+  height: .1rem;
+  background-color: var(--gray-500);
+}

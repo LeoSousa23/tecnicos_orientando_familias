@@ -1,0 +1,34 @@
+[
+  {
+    "imagem": "../src/images/img_1.jpg",
+    "tag": "Educacao",
+    "data": "04.04.2024",
+    "titulo": "Qual o papel do Auxiliar de Enfermagem?",
+    "descricao": "O auxiliar de enfermagem desempenha um papel primordial na área da saúde, fornecendo suporte e...",
+    "link": "#"
+  },
+  {
+    "imagem": "../src/images/img_2.jpg",
+    "tag": "Ética Profissional",
+    "data": "04.04.2024",
+    "titulo": "Qual a importância de lavar bem as mãos?",
+    "descricao": "Por que higienizar as mãos? Para remover a sujeira, o suor, a oleosidade, os pelos, as células descamativas e...",
+    "link": "#"
+  },
+  {
+    "imagem": "../src/images/img_3.jpg",
+    "tag": "Saúde Mental",
+    "data": "04.04.2024",
+    "titulo": "Saúde mental dos profissionais",
+    "descricao": "A saúde mental dos profissionais de saúde é uma questão crítica e frequentemente negligenciada. O trabalho diário com...",
+    "link": "#"
+  },
+  {
+    "imagem": "../src/images/img_4.jpg",
+    "tag": "Rotina de trabalho",
+    "data": "07.04.2024",
+    "titulo": "Atribuições do auxiliar de enfermagem",
+    "descricao": "Muitos se interessam pela área da enfermagem pelo cuidado e atenção com o paciente. De fato, nós como profissionais...",
+    "link": "#"
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Técnicos Orientando Famílias</title>
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+  <script src="src/data/dados.json" defer></script>
+  <script src="src/js/load_data.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <nav>
+      <div class="nav_container">
+        <button>
+          <i class="ph ph-list"></i>
+        </button>
+        <ul class="nav_links hiden">
+          <li>Início</li>
+          <li>Quem somos</li>
+          <li>Nosso trabalho</li>
+          <li>Fale conosco</li>
+        </ul>
+        <div class="theme_mode">
+          <i class="ph ph-moon-stars"></i>
+          <i class="ph ph-sun-dim"></i>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="logo_container">
+        <h1>
+          Técnicos
+          <span>Orientando Famílias</span>
+        </h1>
+      </div>
+    </header>
+
+    <section>
+      <div class="hero_container">
+        <div class="hero_content">
+          <span>Enfermagem</span>
+          <h2>Navegue Conosco Rumo à Excelência Profissional</h2>
+          <p>03.04.2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="material_blog_container">
+
+        <div class="material_blog_name">
+          <h2>Descobertas Diárias</h2>
+          <p>Novas coisas que aprendemos</p>
+        </div>
+
+        <div id="blog-cards">
+          <!-- As matérias do blog sao adicionadas dinamicamente aqui -->
+        </div>
+
+      </div> 
+    </section>
+
+    <footer>
+      <a href="/">© 2023 - Técnicos Orientando Famílias</a>
+    </footer>
+  </div>
+</body>
+</html>
